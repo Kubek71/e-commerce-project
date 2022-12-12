@@ -3,24 +3,25 @@ export const CategoryButton = styled.button`
   background: none;
   color: ${({ theme }) => theme.colors.lightPurple};
   text-transform: uppercase;
-  font-weight: ${({ theme }) => theme.fonts.regular};
+  font-weight: ${({ theme }) => theme.fonts.thin};
   border: none;
   position: relative;
   font-size: 1.5rem;
   letter-spacing: 1px;
+  padding: 0;
 
   a {
     cursor: pointer;
     text-transform: uppercase;
   }
 
-  &:after {
+  /* &:after {
     ${({ openCategories }) =>
-      openCategories === false ? 'content: ">>";' : 'content: "<<";'};
+    openCategories === false ? 'content: ">>";' : 'content: "<<";'};
     color: ${({ theme }) => theme.colors.lightPurple};
     position: absolute;
     top: 0;
     ${({ openCategories }) =>
-      openCategories === false ? "right: -25%;" : "left: -25%;"}
-  }
+    openCategories === false ? "right: -25%;" : "left: -25%;"}
+  } */
 `;
