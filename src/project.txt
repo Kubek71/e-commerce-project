@@ -1,0 +1,9 @@
+
+stworzenie strony glownej, komponentow (mobile first)
+routing 
+konfiguracja firebase
+stworzenie bazy danych firebase
+podpiecie firebase, rejestracja, logowanie, logowanie za pomoca google,
+rejestracja produktów z koszyka jako zamówienie w bazie danych.
+podpiecie bramki platnosci
+contact us, formularz kontaktowy
