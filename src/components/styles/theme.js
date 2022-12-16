@@ -12,9 +12,9 @@ export const theme = {
   },
 
   fonts: {
-    thin: 400,
-    regular: 550,
-    bold: 650,
+    thin: 300,
+    regular: 450,
+    bold: 600,
     xBold: 800,
   },
 

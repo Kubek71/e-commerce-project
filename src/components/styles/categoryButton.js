@@ -1,9 +1,9 @@
 import styled from "styled-components";
 export const CategoryButton = styled.button`
   background: none;
-  color: ${({ theme }) => theme.colors.lightPurple};
+  color: ${({ theme }) => theme.colors.primaryLight};
   text-transform: uppercase;
-  font-weight: ${({ theme }) => theme.fonts.thin};
+  font-weight: ${({ theme }) => theme.fonts.regular};
   border: none;
   position: relative;
   font-size: 1.5rem;
@@ -14,14 +14,4 @@ export const CategoryButton = styled.button`
     cursor: pointer;
     text-transform: uppercase;
   }
-
-  /* &:after {
-    ${({ openCategories }) =>
-    openCategories === false ? 'content: ">>";' : 'content: "<<";'};
-    color: ${({ theme }) => theme.colors.lightPurple};
-    position: absolute;
-    top: 0;
-    ${({ openCategories }) =>
-    openCategories === false ? "right: -25%;" : "left: -25%;"}
-  } */
 `;
