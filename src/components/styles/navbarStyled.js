@@ -2,7 +2,6 @@ import styled from "styled-components";
 export const NavbarStyled = styled.nav`
   position: relative;
   width: 100%;
-
   @media (max-width: 1024px) {
     height: 100%;
     width: 100%;
@@ -37,8 +36,8 @@ export const NavbarStyled = styled.nav`
 
   a {
     cursor: pointer;
-    color: ${({ theme }) => theme.colors.lightPurple};
-    font-weight: ${({ theme }) => theme.fonts.thin};
+    color: ${({ theme }) => theme.colors.primaryLight};
+    font-weight: ${({ theme }) => theme.fonts.regular};
     text-transform: uppercase;
     font-size: 1.5rem;
     letter-spacing: 1px;
@@ -53,6 +52,6 @@ export const UserListElement = styled.li`
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: ${({ theme }) => theme.colors.lightPurple};
+    color: ${({ theme }) => theme.colors.primaryLight};
   }
 `;

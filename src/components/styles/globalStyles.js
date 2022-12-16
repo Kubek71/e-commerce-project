@@ -16,7 +16,7 @@ body, html {
 
 body {
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 `;

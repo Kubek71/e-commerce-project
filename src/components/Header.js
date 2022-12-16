@@ -2,7 +2,7 @@ import React from "react";
 import { HeaderStyled } from "./styles/headerStyled";
 import { NavbarStyled, UserListElement } from "./styles/navbarStyled";
 import { CategoryButton } from "./styles/categoryButton";
-import { FaBars, FaTimes, FaUser } from "react-icons/fa";
+import { FaBars, FaTimes, FaUser, FaShoppingCart } from "react-icons/fa";
 import { useRef, useState } from "react";
 
 const Header = () => {
@@ -64,6 +64,9 @@ const Header = () => {
 
       <button className="nav-menu-btn" onClick={showNavbar}>
         <FaBars />
+      </button>
+      <button className="nav-cart-btn">
+        <FaShoppingCart />
       </button>
     </HeaderStyled>
   );

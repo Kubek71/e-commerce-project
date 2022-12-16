@@ -5,12 +5,21 @@ export const HeaderStyled = styled.header`
   padding: 2rem;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
 
   .nav-menu-btn {
     background: none;
     border: none;
     font-size: 2rem;
-    color: ${({ theme }) => theme.colors.darkPurple};
+    color: ${({ theme }) => theme.colors.primaryLight};
+  }
+
+  .nav-cart-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: ${({ theme }) => theme.colors.primaryLight};
   }
 
   @media (min-width: 1024px) {
@@ -26,6 +35,6 @@ export const HeaderStyled = styled.header`
     justify-content: center;
     align-items: center;
     transform: translateY(100vh);
-    background: ${({ theme }) => theme.colors.primaryBeige};
+    background: ${({ theme }) => theme.colors.lightPurple};
   }
 `;
